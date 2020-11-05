@@ -26,8 +26,10 @@ class Form{
         this.button.mousePressed(() =>{
             hide();
             player.name = this.input.value();
-            playerIdentity = random(1,5)
-            
+            playerIdentity = random(1,5);
+            playerCount++
+
+
         })
     }
 
